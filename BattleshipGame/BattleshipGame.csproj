@@ -10,4 +10,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="3.1.20" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="BLL\" />
+    <Folder Include="Constants\Enums\" />
+    <Folder Include="Data\Interfaces\" />
+    <Folder Include="Data\Models\" />
+  </ItemGroup>
+
 </Project>
