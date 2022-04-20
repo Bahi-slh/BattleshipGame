@@ -9,28 +9,37 @@ namespace BattleshipGame.BLL
 {
     public class Attack
     {
-        AttackStatus AttackCell(int row, int column, GameBoard board)
+        public Boolean AttackCell(GameBoard board, int row, int column)
         {
-            ValidateAttack(row, column, board);
-            //if attack HITs
-            if (board.CellStatuses[row, column] == CellStatus.Filled)
+            if (CheckAttach(board, row, column))
             {
-                return AttackStatus.Hit;
+                if (board.CellStatuses[row, column] ==CellStatus.Filled ||
+                    board.CellStatuses[row, column] == CellStatus.Hit)
+                {
+                    board.CellStatuses[row, column] =CellStatus.Hit;
+                    return true;
+                }
+
+                board.CellStatuses[row, column] = CellStatus.Miss;
+                return false;
             }
-            return AttackStatus.Miss;
+            else
+            {
+                return false;
+            }
         }
 
 
-        private void ValidateAttack(int row, int column, GameBoard board)
+        private Boolean CheckAttach(GameBoard board, int row, int column)
         {
-            string errrorMsg = "This attack is invalid";
-            if (row > board.Rows)
+            //check if attack location is actually inside of the board
+            if (row > board.Rows || column > board.Columns)
             {
-                throw new IndexOutOfRangeException(errrorMsg);
+                return false;
             }
-            if (column > board.Columns)
+            else
             {
-                throw new IndexOutOfRangeException(errrorMsg);
+                return true;
             }
         }
     }

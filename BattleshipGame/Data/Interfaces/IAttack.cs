@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace BattleshipGame.Data.Interfaces
 {
-    public interface IAttacker
+    public interface IAttack
     {
-        AttackStatus Attack(GameBoard board, int row, int column);
+        Boolean AttackCell(GameBoard board, int row, int column);
     }
 }

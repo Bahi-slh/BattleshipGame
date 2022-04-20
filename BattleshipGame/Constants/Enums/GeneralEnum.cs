@@ -5,16 +5,18 @@ using System.Threading.Tasks;
 
 namespace BattleshipGame.Constants.Enums
 {
-    public enum AttackStatus
-    {
-        Hit,
-        Miss
-    }
+    //public enum AttackStatus
+    //{
+    //    Hit,
+    //    Miss
+    //}
 
     public enum CellStatus
     {
         Filled,
-        Empty
+        Empty, 
+        Hit, 
+        Miss
 
     }
 
