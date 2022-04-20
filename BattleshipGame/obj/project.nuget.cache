@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AtUTRrubec1nC5K9b6OWuToVEDB3m0KYw309420H177ZaR1pKSvztp+7Lpi6JrgkG5i6PscavxvoJI4BJS0iHQ==",
+  "dgSpecHash": "fOQ6Zy3Xhk17r4UqmGjOAb6+r7GBHWKdI01qekTAnwNEJ9qRzvpqhl9DpYpvlya0wX9Eg9avRc+/8SkgVlk0rw==",
   "success": true,
   "projectFilePath": "C:\\Users\\bahie\\OneDrive\\Desktop\\BattleshipGame\\BattleshipGame\\BattleshipGame.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,11 @@
     "C:\\Users\\bahie\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "C:\\Users\\bahie\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\bahie\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\bahie\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\bahie\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.0\\swashbuckle.aspnetcore.swagger.6.3.0.nupkg.sha512",
+    "C:\\Users\\bahie\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.0\\swashbuckle.aspnetcore.swaggergen.6.3.0.nupkg.sha512",
+    "C:\\Users\\bahie\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.0\\swashbuckle.aspnetcore.swaggerui.6.3.0.nupkg.sha512",
     "C:\\Users\\bahie\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\bahie\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Users\\bahie\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
