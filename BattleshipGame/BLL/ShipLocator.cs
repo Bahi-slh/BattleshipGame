@@ -40,11 +40,11 @@ namespace BattleshipGame.BLL
             string errrorMsg = "This Placement is not valid";
             if (row > board.Rows)
             {
-                throw new IndexOutOfRangeException(errrorMsg);
+                throw new Exception(errrorMsg);
             }
             if (column > board.Columns)
             {
-                throw new IndexOutOfRangeException(errrorMsg);
+                throw new Exception(errrorMsg);
             }
            
         }

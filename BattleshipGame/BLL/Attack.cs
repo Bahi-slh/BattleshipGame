@@ -11,7 +11,7 @@ namespace BattleshipGame.BLL
     {
         public Boolean AttackCell(GameBoard board, int row, int column)
         {
-            if (CheckAttach(board, row, column))
+            if (CheckAttack(board, row, column))
             {
                 if (board.CellStatuses[row, column] ==CellStatus.Filled ||
                     board.CellStatuses[row, column] == CellStatus.Hit)
@@ -30,7 +30,7 @@ namespace BattleshipGame.BLL
         }
 
 
-        private Boolean CheckAttach(GameBoard board, int row, int column)
+        private Boolean CheckAttack(GameBoard board, int row, int column)
         {
             //check if attack location is actually inside of the board
             if (row > board.Rows || column > board.Columns)
