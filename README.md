@@ -1,5 +1,8 @@
 Battleship Game is a .NET Core web API Project
 
+Public endpoint:
+https://battleshipgame20220421113109.azurewebsites.net/index.html
+
 Requirements to run Battleship Game:
 Visual Studio (.Net Core 3.1 and C# installed)
 A web browser
