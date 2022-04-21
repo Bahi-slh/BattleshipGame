@@ -4,10 +4,11 @@ Public endpoint:
 https://battleshipgame20220421113109.azurewebsites.net/index.html
 
 Requirements to run Battleship Game:
-Visual Studio (.Net Core 3.1 and C# installed)
-A web browser
+
+Visual Studio (.Net Core 3.1 and C# installed), A web browser
 
 Game rules:
+
 The goal is to implement a Battleship state-tracker for a single player that must support the following logic: 
 ● Create a board  
 ● Add a battleship to the board 
