@@ -24,19 +24,21 @@ Running the code:
 Open Battleship Game Project sln file in Visual Studio and Run the code. It will be run in a web-browser where Swagger is used to visualise the APIs. 
 Choose an API to try it out. Give arbitrary values in JSON format and press on Excute button. Results will apear.
 Put these enum values in JSON format while trying APIs out:
+
 CellStatus:
-        Filled=0
-        Empty=1
-        Hit=2
-        Miss=3
-ShipDirection
-        Horizontal=0
-        Vertical=1
-ShipType
-        Destroyer=0
-        Cruiser=1
-        BattleShip=2
-        Carrier=3
+
+Filled=0 / Empty=1 / Hit=2 / Miss=3
+
+
+ShipDirection:
+
+Horizontal=0 / Vertical=1
+
+
+ShipType:
+
+Destroyer=0 / Cruiser=1 / BattleShip=2 / Carrier=3
+
 
 
 Running the Tests:
